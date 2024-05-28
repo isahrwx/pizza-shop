@@ -1,0 +1,231 @@
+*{
+    font-family: 'Amatic SC', cursive;
+    padding: 0;
+    margin: 0;
+}
+.menu-container{
+    background-color: rgba(0, 0, 0, 0.37);
+    font-size: 30px;
+    font-weight: 900;
+    transition-duration: .5s;
+    color: aliceblue;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.menu-container li{
+    display: inline;
+    
+}
+.menu-container:hover{
+    background-color: black;
+}
+.menu-container a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0 15px;
+    padding: 3px 6px;
+    border-radius: 10px;
+    transition-duration: .5s;
+}
+.menu-container a:hover{
+    background-color: rgb(194, 195, 197);
+    color: black;
+}
+.banner-container{
+    background: linear-gradient(to bottom,rgba(143, 36, 36, 0.278),rgba(0, 0, 0, 0.569)),url('D:/tadris/pizza/images/banner-img2.jfif');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+}
+.banner-text{
+    position: absolute;
+    margin:100px 450px 0 450px;
+   
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    line-height: 70px;
+
+}
+.banner-button{
+    position: absolut;
+    padding: 15px 30px;
+    font-size: 30px;
+    
+    color: aliceblue;
+    background-color: black;
+  border: none;
+    margin: 420px 500px 0 500px;
+    transition-duration:.5s ;
+    font-weight: 700;
+}
+.banner-button:hover{
+    background-color: rgb(194, 195, 197);
+    color: black;
+}
+.banner-text2{
+    font-size: 30px;
+    position: absolute;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+.our-menu-container{
+    background-color: black;
+    width: 100%;
+    color: aliceblue;
+    padding-bottom: 100px;
+    margin-bottom: 0;
+}
+.our-menu h1{
+    font-size:60px ;
+    margin: 0 500px;
+}
+.pizza-menu,.salad-menu{
+  width: 500px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  margin-left: 75px;
+  margin-top: 20px;
+  position: relative;
+  display: inline-block;
+}
+.pizza-menu h1,.salad-menu h1{
+   
+    margin: 0;
+    padding: 5px 10px;
+    background-color: red;
+   border-bottom: 2px solid aliceblue;
+  border: none;
+   color: aliceblue;
+  
+ 
+}
+.pizza-menu h2 ,.salad-menu h2{
+margin: 30px 10px;
+font-size: 30px;
+display: inline;
+
+}
+.pizza-menu p,.salad-menu p{
+    font-size: 25px;
+    margin: 10px 10px;
+}
+.our-menu span,.salad-menu span{
+   right: 10px;
+   margin-top: 10px;
+   position: absolute;
+
+    position: absolute;
+   width: 60px;
+   height: 35px;
+   text-align: center;
+    background-color: rgba(0, 0, 0, 0.618);
+    color: aliceblue;
+    font-size: 25px;
+    border-radius: 3px;
+}
+hr{
+    margin: 5px 10px;
+}
+.about-container{
+    width: 100%;
+   
+    background-color: #6d3c38;
+    color: aliceblue;
+}
+.about-container h1,.contact-container h1{
+    display: inline-block;
+    margin:30px 540px;
+    font-size: 80px;
+    letter-spacing: 6px;
+}
+.about-container p{
+   margin: 50px 100px;
+   font-size: 25px;
+}
+.about-container h3{
+    margin: 5px 100px;
+    font-size: 30px;
+    display:inline-block ;
+}
+.about-container span{
+    font-size: 40px;
+    font-weight: 800;
+}
+.about-img{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin:0 0 0 960px ;
+}
+.about-img2{
+margin:  30px 100px 0 100px ;
+}
+.about-container h4{
+    margin: 30px 100px;
+    font-size: 23px;
+    display: inline-block;
+}
+.about-img3{
+    width: 100%;
+    display: block;
+}
+.contact-container{
+    width: 100%;
+    background-color: rgb(81, 91, 104);
+    color: aliceblue;
+}
+.contact-container h3{
+    margin: 20px 100px;
+    font-size: 30px;
+
+}
+.contact-container span{
+    padding: 2px 4px;
+    background-color: black;
+
+}
+.contact-container input,textarea{
+    width: 80%;
+    margin: 15px 100px;
+    height: 50px;
+    padding-inline-start: 20px;
+    font-size: 30px;
+    font-weight: 800;
+    border: none;
+    transition-duration: .5s;
+}
+.contact-container input[type=submit]{
+  margin-left: 110px;
+   
+}
+.contact-container input[type=submit]:hover{
+    background-color: black;
+    color: aliceblue;
+   
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+}
+.footer h1{
+    position: absolute;
+    margin:70px 300px;
+}
+.footer span{
+    width: 100%;
+    padding: 2px 4px;
+    background-color: aliceblue;
+    color: black;
+}
